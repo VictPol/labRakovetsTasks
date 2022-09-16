@@ -5,3 +5,4 @@ public class Task02 {
         System.out.println("Java: version 11.\nJVM: HotSpot.");
     }
 }
+
