@@ -2,9 +2,10 @@ package lesson02;
 
 public class Task04 {
     public static void main(String[] args) {
-        final int THREE_NUMBERS = 537;
-        final int TWO_STAGE = 100;
-        final int ONE_STAGE = 10;
-        System.out.println(THREE_NUMBERS / TWO_STAGE + THREE_NUMBERS % TWO_STAGE / ONE_STAGE + THREE_NUMBERS % ONE_STAGE);
+        final int NUMBER_OF_THREE_DIGITS = 517;
+        final int SECOND_NUMBER_OF_DIGITS = 10;
+        final int THIRD_NUMBER_OF_DIGITS = 100;
+
+        System.out.println(NUMBER_OF_THREE_DIGITS / THIRD_NUMBER_OF_DIGITS + NUMBER_OF_THREE_DIGITS % THIRD_NUMBER_OF_DIGITS / SECOND_NUMBER_OF_DIGITS + NUMBER_OF_THREE_DIGITS % SECOND_NUMBER_OF_DIGITS);
     }
 }
